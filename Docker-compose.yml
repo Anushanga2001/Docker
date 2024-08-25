@@ -1,0 +1,14 @@
+# set version
+version: '3.7'
+
+services:
+
+  server1:
+    build: ./server1
+    ports:
+      - "5000:5000"
+
+  server2:
+    build: ./server2
+    ports:
+      - "5001:5001"
